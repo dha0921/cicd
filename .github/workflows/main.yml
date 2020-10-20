@@ -10,5 +10,5 @@ jobs:
     - name: echo password
       run: echo $PASSWORD
       env:
-      	PASSWORD: ${{ secrets.PASSWORD }}
+        PASSWORD: ${{ secrets.PASSWORD }}
 
